@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pages-apple/static/css/main.79057904.css",
+    "main.js": "/pages-apple/static/js/main.cd218830.js",
+    "index.html": "/pages-apple/index.html",
+    "main.79057904.css.map": "/pages-apple/static/css/main.79057904.css.map",
+    "main.cd218830.js.map": "/pages-apple/static/js/main.cd218830.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79057904.css",
+    "static/js/main.cd218830.js"
+  ]
+}
