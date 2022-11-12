@@ -10,13 +10,12 @@ import { WatchPage } from "../pages/WatchPage";
 import { AirPudsPage } from "../pages/AirPudsPage";
 import { IphonPage } from "../pages/IphonPage";
 
-import Header from "../components/Header";
+import { Header } from "../components/Header";
 
 function App() {
   return (
     <Router>
       <Header />
-
       <Routes>
         <Route path="/home" element={<MacPages />}></Route>
         <Route path="/ipad" element={<IpadPage />}></Route>

@@ -7,11 +7,12 @@ const colors = {
   silver: "#f5f5f7",
   black: "#000",
 };
-const ImgBotonMenu = styled.div`
-  border: solid red 4px;
+const ComtainerHeader = styled.div``;
+const ImgApple = styled.div`
   img {
-    width: 40px;
+    width: 2%;
+    left: 30px;
   }
 `;
 
-export { ImgBotonMenu };
+export { ComtainerHeader, ImgApple };
