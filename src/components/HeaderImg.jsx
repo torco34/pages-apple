@@ -1,14 +1,14 @@
 import React from "react";
-import { ComtainerHeader, ImgApple } from "../assets/styleds/Header";
-import { ListaHeader } from "./ListaHeader";
+import { ComtainerImg } from "../assets/styleds/HeaderImg";
+
 import apple from "../assets/img/logo.jpeg";
 
-const Header = () => {
+const HeaderImg = () => {
   return (
-    <ComtainerHeader>
-      <img src={apple} alt="aple" />
-    </ComtainerHeader>
+    <ComtainerImg>
+      <img src={apple} alt="aple" className="img" />
+    </ComtainerImg>
   );
 };
 
-export default Header;
+export default HeaderImg;

@@ -11,6 +11,7 @@ import { AirPudsPage } from "../pages/AirPudsPage";
 import { IphonPage } from "../pages/IphonPage";
 
 import { Header } from "../components/Header";
+import NotFound from "../pages/NotFound";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <Route path="/sopo" element={<SoportePage />}></Route>
         <Route path="/donde" element={<DondeComPage />}></Route>
 
-        <Route path="*" element={<p>Not found</p>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

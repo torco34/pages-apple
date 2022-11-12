@@ -1,18 +1,14 @@
 import styled from "styled-components";
-const colors = {
-  dark: "#333",
-  white: "#fff",
-  orange: "#dd674b",
-  gray: "#ccc",
-  silver: "#f5f5f7",
-  black: "#000",
-};
-const ComtainerHeader = styled.div``;
-const ImgApple = styled.div`
+
+const ComtainerImg = styled.div`
+  position: relative;
+  left: 240px;
+
   img {
-    width: 2%;
-    left: 30px;
+    width: 30px;
+    img {
+    }
   }
 `;
 
-export { ComtainerHeader, ImgApple };
+export { ComtainerImg };

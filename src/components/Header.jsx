@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ComtainerNav, BgDiv } from "../assets/styleds/Header";
 import { NavLink } from "react-router-dom";
 import { HeaderButon } from "./HeaderButon";
+import HeaderImg from "./HeaderImg";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -12,6 +13,9 @@ const Header = () => {
   return (
     <>
       <ComtainerNav>
+        <div>
+          <HeaderImg />
+        </div>
         <ul className={`link ${show ? "active" : ""}`}>
           {navbars.map((navbar) => (
             <li key={navbar.to}>
