@@ -1,4 +1,5 @@
 import React from "react";
+import { HomeBody } from "../components/HomeBody";
 import { HomeIcons } from "../components/HomeIcons";
 
 const MacPages = () => {
@@ -6,6 +7,9 @@ const MacPages = () => {
     <>
       <div className="container">
         <HomeIcons />
+      </div>
+      <div className="">
+        <HomeBody />
       </div>
     </>
   );

@@ -1,28 +1,17 @@
-import React, { useState } from "react";
-import { ComtainerNav } from "../assets/styleds/Header";
+import React from "react";
+import { ContainerVert } from "../assets/styleds/HeaderVert";
 import { NavLink } from "react-router-dom";
-import { HeaderButon } from "./HeaderButon";
-import HeaderImg from "./HeaderImg";
-import { HeaderVirti } from "./HeaderVirti";
 
-const Header = () => {
-  const [show, setShow] = useState(false);
-  const handleClick = () => {
-    setShow(!show);
-    console.log("hola mundo");
-  };
+const HeaderVirti = ({ handleClick }) => {
   return (
     <>
-      <ComtainerNav>
-        <div>
-          <HeaderImg />
-        </div>
-        <ul className={`link ${show ? "active" : ""}`}>
+      <ContainerVert onClick={handleClick}>
+        <ul>
           {navbars.map((navbar) => (
             <li key={navbar.to}>
               <NavLink
                 style={({ isActive }) => ({
-                  color: isActive ? "#ffffff" : "#c0c0ca",
+                  color: isActive ? "#ffff" : "#c0c0ca",
                 })}
                 to={navbar.to}
               >
@@ -31,25 +20,21 @@ const Header = () => {
             </li>
           ))}
         </ul>
-
-        <div className="burgue">
-          <HeaderButon handleClick={handleClick} />
-        </div>
-
-        {show ? <HeaderVirti handleClick={handleClick} /> : ""}
-      </ComtainerNav>
+      </ContainerVert>
     </>
   );
 };
-export { Header };
+export { HeaderVirti };
 const navbars = [];
 navbars.push({
   to: "/home",
   text: "Mac",
+  texto: true,
 });
 navbars.push({
   to: "/ipad",
   text: "iPad",
+  cont: true,
 });
 navbars.push({
   to: "/iphon",
