@@ -8,6 +8,8 @@ const color = {
 };
 const ContainerBody = styled.div`
   display: grid;
+  /* display: grid; */
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   justify-items: center;
   align-items: center;
   height: 50vh;

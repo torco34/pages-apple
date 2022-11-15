@@ -7,7 +7,7 @@ const ContainerVert = styled.div`
   position: absolute;
   width: 100%;
   height: 100vh;
-  top: 36px;
+  top: 39px;
 
   transition: all 0.6s ease;
   text-align: center;

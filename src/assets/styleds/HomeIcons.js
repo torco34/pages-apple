@@ -8,12 +8,17 @@ const color = {
   black: "#000",
 };
 const NavbarPadre = styled.div`
-  margin-top: 30px;
-  /* width: 60%; */
+  display: none;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @media (min-width: 768px) {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .boton {
+      display: none;
+    }
+  }
   nav {
     width: 70%;
   }
@@ -30,7 +35,6 @@ const NavbarPadre = styled.div`
     align-items: center;
   }
   li {
-    display: grid;
     justify-items: center;
     list-style-type: none;
   }
