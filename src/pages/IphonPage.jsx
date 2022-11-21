@@ -1,7 +1,12 @@
 import React from "react";
+import { Iphone } from "../components/Iphone";
 
 const IphonPage = () => {
-  return <div>IphonPage jidkfmgrkt</div>;
+  return (
+    <div>
+      <Iphone />
+    </div>
+  );
 };
 
 export { IphonPage };
