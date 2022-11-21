@@ -1,7 +1,7 @@
 import React from "react";
 
 const IphonPage = () => {
-  return <div>IphonPage</div>;
+  return <div>IphonPage jidkfmgrkt</div>;
 };
 
 export { IphonPage };
