@@ -1,14 +1,19 @@
 {
   "files": {
     "main.css": "/pages-apple/static/css/main.c59cc657.css",
-    "main.js": "/pages-apple/static/js/main.6595f843.js",
+    "main.js": "/pages-apple/static/js/main.50dd547b.js",
+    "static/media/audifo.png": "/pages-apple/static/media/audifo.701ffd219b645d1f2960.png",
+    "static/media/3peges.png": "/pages-apple/static/media/3peges.da62f0afddd62e69c517.png",
     "static/media/ipad.png": "/pages-apple/static/media/ipad.cae95c52d3a81fe80644.png",
+    "static/media/audiIcon.png": "/pages-apple/static/media/audiIcon.d8965415c3c0b37c0f3e.png",
+    "static/media/letre.png": "/pages-apple/static/media/letre.c0ed4f1a31b0d163ba6b.png",
+    "static/media/iconipone.png": "/pages-apple/static/media/iconipone.6e415783d9cf7a6f5f50.png",
     "index.html": "/pages-apple/index.html",
     "main.c59cc657.css.map": "/pages-apple/static/css/main.c59cc657.css.map",
-    "main.6595f843.js.map": "/pages-apple/static/js/main.6595f843.js.map"
+    "main.50dd547b.js.map": "/pages-apple/static/js/main.50dd547b.js.map"
   },
   "entrypoints": [
     "static/css/main.c59cc657.css",
-    "static/js/main.6595f843.js"
+    "static/js/main.50dd547b.js"
   ]
 }
