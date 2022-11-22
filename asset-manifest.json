@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pages-apple/static/css/main.c59cc657.css",
-    "main.js": "/pages-apple/static/js/main.150882b1.js",
+    "main.js": "/pages-apple/static/js/main.18c86360.js",
     "static/media/soporte.png": "/pages-apple/static/media/soporte.576505716675c01cd304.png",
     "static/media/audifo.png": "/pages-apple/static/media/audifo.701ffd219b645d1f2960.png",
     "static/media/reloj.png": "/pages-apple/static/media/reloj.007f0a4c37980ed6e7de.png",
@@ -10,17 +10,19 @@
     "static/media/tvmat.png": "/pages-apple/static/media/tvmat.77b1419587020ddaacb1.png",
     "static/media/tvCasa.png": "/pages-apple/static/media/tvCasa.d6536d26e2109be95422.png",
     "static/media/donde.png": "/pages-apple/static/media/donde.9544b64a9066f212f835.png",
+    "static/media/guzs.jpg": "/pages-apple/static/media/guzs.dd18758c9c8e8b0179f8.jpg",
     "static/media/audiIcon.png": "/pages-apple/static/media/audiIcon.d8965415c3c0b37c0f3e.png",
     "static/media/letre.png": "/pages-apple/static/media/letre.c0ed4f1a31b0d163ba6b.png",
     "static/media/iconipone.png": "/pages-apple/static/media/iconipone.6e415783d9cf7a6f5f50.png",
     "static/media/reloicon.png": "/pages-apple/static/media/reloicon.5f5986bf4500205a0860.png",
     "static/media/iconSolo.png": "/pages-apple/static/media/iconSolo.1485c1230c441229df54.png",
+    "static/media/s22.jpeg": "/pages-apple/static/media/s22.609b0cff352ffab83eb7.jpeg",
     "index.html": "/pages-apple/index.html",
     "main.c59cc657.css.map": "/pages-apple/static/css/main.c59cc657.css.map",
-    "main.150882b1.js.map": "/pages-apple/static/js/main.150882b1.js.map"
+    "main.18c86360.js.map": "/pages-apple/static/js/main.18c86360.js.map"
   },
   "entrypoints": [
     "static/css/main.c59cc657.css",
-    "static/js/main.150882b1.js"
+    "static/js/main.18c86360.js"
   ]
 }
