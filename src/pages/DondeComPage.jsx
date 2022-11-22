@@ -1,7 +1,10 @@
 import React from "react";
-
-const DondeComPage = () => {
-  return <div>DondeComPage</div>;
+import tvcom from "../assets/img/donde.png";
+import { ContaineDond } from "../assets/styleds/DondeComprar";
+export const DondeComPage = () => {
+  return (
+    <ContaineDond>
+      <img src={tvcom} alt="" />
+    </ContaineDond>
+  );
 };
-
-export { DondeComPage };
