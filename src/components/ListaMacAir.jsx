@@ -28,7 +28,7 @@ export { ListaMacAir };
 const navbars = [];
 navbars.push({
   img: img1,
-  to: "/airMac",
+  to: "/modelo",
   text: "MacBook Air con chip M1",
   conts: false,
 });

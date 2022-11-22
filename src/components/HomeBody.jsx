@@ -9,7 +9,7 @@ const HomeBody = () => {
         <h5>Nuevo</h5>
         <h1>MacBook Air</h1>
         <p>Tan poderoso que vuela.</p>
-        <Link to="/">Más información </Link>
+        <Link to="/airMac">Más información </Link>
       </div>
       <div className="">
         <img src={home} alt="home" />

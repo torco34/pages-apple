@@ -13,6 +13,7 @@ import { PageIconMac } from "../pages/PageIconMac";
 
 import { Header } from "../components/Header";
 import NotFound from "../pages/NotFound";
+import { ModeloM1 } from "../components/ModeloM1";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/sopo" element={<SoportePage />}></Route>
         <Route path="/donde" element={<DondeComPage />}></Route>
         <Route path="/airMac" element={<PageIconMac />}></Route>
+        <Route path="/modelo" element={<ModeloM1 />}></Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
