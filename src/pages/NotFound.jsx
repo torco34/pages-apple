@@ -1,17 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { ContainerNot } from "../assets/styleds/NotFon";
 const NotFound = () => {
   return (
-    <div className="text-center p-5 text-bg-dark ">
+    <ContainerNot>
       <p>
-        Esta pagina es una copiad de la pagina de Apple en ella practico los
-        componectes<br></br>
-        <span>Bootstrap styled-componet</span>
+        Es una landing pages de la pagina de Apple. En esta copia, practico los
+        componentes
         <br></br>
-        <Link to="/home">ver</Link>
+        <span>React, React router, Bootstrap y styled-components</span>
+        <br></br>
+        <span className="btn btn-dark  ">
+          <Link to="/home">ver</Link>
+        </span>
       </p>
-    </div>
+    </ContainerNot>
   );
 };
 

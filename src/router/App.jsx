@@ -9,6 +9,7 @@ import { DondeComPage } from "../pages/DondeComPage";
 import { WatchPage } from "../pages/WatchPage";
 import { AirPudsPage } from "../pages/AirPudsPage";
 import { IphonPage } from "../pages/IphonPage";
+import { PageIconMac } from "../pages/PageIconMac";
 
 import { Header } from "../components/Header";
 import NotFound from "../pages/NotFound";
@@ -27,7 +28,7 @@ function App() {
         <Route path="/solo" element={<SoloApplePage />}></Route>
         <Route path="/sopo" element={<SoportePage />}></Route>
         <Route path="/donde" element={<DondeComPage />}></Route>
-
+        <Route path="/airMac" element={<PageIconMac />}></Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
